@@ -1,0 +1,121 @@
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;   
+    object-fit: cover;
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translateY(-50%);
+    max-width: 420px;
+    color: white; 
+    z-index: 2;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.testimonial-card{
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.testimonial-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.testimonial-card p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.testimonial-card h5{
+    font-weight:700;
+    margin-bottom:5px;
+}
+
+.testimonial-card small{
+    color:#888;
+}
+
+.stars{
+    color:#ff9800;
+    font-size:22px;
+    margin-bottom:15px;
+}
+.feature-box{
+    padding:30px 20px;
+    transition:.3s;
+}
+
+.feature-box i{
+    font-size:45px;
+    color:#8B6B4A;
+    margin-bottom:20px;
+}
+
+.feature-box h5{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.feature-box p{
+    color:#666;
+    line-height:1.7;
+}
+
+.footer{
+    background:#8f8e84;
+}
+
+.footer h5{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.footer p{
+    color:#666;
+    line-height:1.8;
+}
+
+.footer ul li{
+    margin-bottom:12px;
+}
+
+.footer ul li a{
+    text-decoration:none;
+    color:#666;
+}
+
+.footer ul li a:hover{
+    color:#8B6B4A;
+}
+
+.social-icons a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    border-radius:50%;
+    background:#fff;
+}
